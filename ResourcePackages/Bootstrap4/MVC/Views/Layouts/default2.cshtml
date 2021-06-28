@@ -1,0 +1,74 @@
+﻿@using System.Web.Mvc;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+
+<!DOCTYPE html>
+<html @Html.RenderLangAttribute()>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+
+    @Html.Section("head")
+    @Html.StyleSheet(Url.WidgetContent("~/ResourcePackages/Bootstrap4/assets/dist/css/main.min.css"), "head", true)
+</head>
+
+<body>
+    @Html.Section("top")
+    <header style="margin-bottom:-1px">
+        <div class="container-fluid  ">
+            <div class="row  align-items-center">
+                <div class="col-lg-5 col-3  header-left clearfix">
+                    @Html.SfPlaceHolder("HeaderLeft")
+                </div>
+                <div class="col-lg-2 col-6  text-center">
+                    @Html.SfPlaceHolder("HeaderMiddle")
+                </div>
+                <div class="col-lg-5 col-3    header-right  clearfix">
+                    @Html.SfPlaceHolder("HeaderRight")
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 search-dropdown">
+            @Html.SfPlaceHolder("SearchDropdown")
+        </div>
+    </header>
+    <div>
+        @Html.SfPlaceHolder("Contentplaceholder1")
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-4  col-md-12   footer-actions">
+                    @Html.SfPlaceHolder("FooterLeft")
+                </div>
+                <div class="col-lg-8 col-md-12   footer-links">
+                    @*<a data-toggle="collapse" href=".extended-footer" class="orange-link extended-footer-link">Extended Footer <i class=" fa fa-chevron-right"></i></a>*@
+
+                    @Html.SfPlaceHolder("FooterRight")
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @* Inline editing scripts and helpers. They should be available only when inline editing is possible. *@
+    @Html.InlineEditingManager(false)}
+    @Html.Section("bottom")
+   
+</body>
+</html>
+<script type="text/javascript">
+    $(".max_min_button").click(function () {
+        var CSSmin = "fa-minus-square";
+
+        // if ($("#icon").attr("class") == CSSmin) { // now set it minimized
+        if ($("#icon").attr('class').indexOf(CSSmin) > -1) {
+            setRedBarMinimized();
+        }
+        else { // set it maximized
+            setRedBarMaximized();
+        }
+    });
+</script>
