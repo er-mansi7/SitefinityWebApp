@@ -203,6 +203,9 @@
       <HintPath>bin\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
     <Reference Include="MonAgentListener, Version=33.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\MonAgentListener.dll</HintPath>
@@ -333,10 +336,6 @@
     </Reference>
     <Reference Include="Microsoft.Rest.ClientRuntime.Azure">
       <HintPath>bin\Microsoft.Rest.ClientRuntime.Azure.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>bin\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Web.Administration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -597,6 +596,9 @@
       <HintPath>bin\System.Spatial.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>bin\System.Web.Http.Cors.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
@@ -642,11 +644,6 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\System.Web.Helpers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Web.Http.Owin, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\System.Web.Http.Owin.dll</HintPath>
@@ -657,31 +654,21 @@
       <HintPath>bin\System.Web.Http.Tracing.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\System.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\System.Web.Razor.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Services" />
-    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\System.Web.WebPages.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\System.Web.WebPages.Deployment.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\System.Web.WebPages.Razor.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows">
       <HintPath>bin\System.Windows.dll</HintPath>
@@ -1248,10 +1235,438 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="MVC\Controllers\FlatTaxonomyController.cs" />
+    <Compile Include="MVC\Controllers\OurOfficesController.cs" />
+    <Compile Include="MVC\Models\FlatTaxonomyModel.cs" />
+    <Compile Include="MVC\Models\OfficeModel.cs" />
+    <Compile Include="MVC\Models\TaxaCount.cs" />
+    <Compile Include="MVC\ViewModel\FlatTaxonomyViewModel.cs" />
+    <Compile Include="MVC\ViewModel\ImageViewModel.cs" />
+    <Compile Include="MVC\ViewModel\OfficeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MVC\Controllers\CustomWidgetController.cs" />
+    <Compile Include="MVC\Models\CustomWidgetModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AngleSharp.Css.dll" />
+    <Content Include="bin\AngleSharp.Css.xml" />
+    <Content Include="bin\AngleSharp.dll" />
+    <Content Include="bin\AngleSharp.xml" />
+    <Content Include="bin\AntiXssLibrary.dll" />
+    <Content Include="bin\AntiXssLibrary.xml" />
+    <Content Include="bin\Autofac.dll" />
+    <Content Include="bin\Autofac.Integration.WebApi.dll" />
+    <Content Include="bin\Autofac.Integration.WebApi.xml" />
+    <Content Include="bin\Autofac.xml" />
+    <Content Include="bin\AWSSDK.Core.dll" />
+    <Content Include="bin\AWSSDK.Core.xml" />
+    <Content Include="bin\AWSSDK.DynamoDBv2.dll" />
+    <Content Include="bin\AWSSDK.DynamoDBv2.xml" />
+    <Content Include="bin\AWSSDK.S3.dll" />
+    <Content Include="bin\AWSSDK.S3.xml" />
+    <Content Include="bin\AWSSDK.SQS.dll" />
+    <Content Include="bin\AWSSDK.SQS.xml" />
+    <Content Include="bin\CsvHelper.dll" />
+    <Content Include="bin\CsvHelper.xml" />
+    <Content Include="bin\DDay.Collections.dll" />
+    <Content Include="bin\DDay.iCal.dll" />
+    <Content Include="bin\DirectShowLib-2005.dll" />
+    <Content Include="bin\DocumentFormat.OpenXml.dll" />
+    <Content Include="bin\Elasticsearch.Net.dll" />
+    <Content Include="bin\Elasticsearch.Net.xml" />
+    <Content Include="bin\EnvDTE.dll" />
+    <Content Include="bin\EnvDTE.xml" />
+    <Content Include="bin\Enyim.Caching.dll" />
+    <Content Include="bin\Enyim.Caching.xml" />
+    <Content Include="bin\Html2Amp.dll" />
+    <Content Include="bin\HtmlAgilityPack.dll" />
+    <Content Include="bin\HtmlAgilityPack.xml" />
+    <Content Include="bin\HtmlSanitizationLibrary.dll" />
+    <Content Include="bin\HtmlSanitizationLibrary.xml" />
+    <Content Include="bin\HtmlSanitizer.dll" />
+    <Content Include="bin\HtmlSanitizer.xml" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\IdentityModel.dll" />
+    <Content Include="bin\IdentityServer3.AccessTokenValidation.dll" />
+    <Content Include="bin\IdentityServer3.dll" />
+    <Content Include="bin\LinqToTwitter.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Analyzers.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Analyzers.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.Core.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Core.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.FastVectorHighlighter.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.FastVectorHighlighter.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.Highlighter.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Highlighter.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.Memory.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Memory.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.Queries.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Queries.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.Regex.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Regex.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.SimpleFacetedSearch.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.SimpleFacetedSearch.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.Snowball.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.Snowball.xml" />
+    <Content Include="bin\Lucene.Net.Contrib.SpellChecker.dll" />
+    <Content Include="bin\Lucene.Net.Contrib.SpellChecker.xml" />
+    <Content Include="bin\Lucene.Net.dll" />
+    <Content Include="bin\Lucene.Net.xml" />
+    <Content Include="bin\MaxMind.Db.dll" />
+    <Content Include="bin\MaxMind.Db.xml" />
+    <Content Include="bin\MaxMind.GeoIP2.dll" />
+    <Content Include="bin\MaxMind.GeoIP2.xml" />
+    <Content Include="bin\Microsoft.AspNet.OData.dll" />
+    <Content Include="bin\Microsoft.AspNet.OData.xml" />
+    <Content Include="bin\Microsoft.Azure.KeyVault.Core.dll" />
+    <Content Include="bin\Microsoft.Azure.KeyVault.Core.xml" />
+    <Content Include="bin\Microsoft.Azure.Search.Common.dll" />
+    <Content Include="bin\Microsoft.Azure.Search.Common.xml" />
+    <Content Include="bin\Microsoft.Azure.Search.Data.dll" />
+    <Content Include="bin\Microsoft.Azure.Search.Data.xml" />
+    <Content Include="bin\Microsoft.Azure.Search.dll" />
+    <Content Include="bin\Microsoft.Azure.Search.Service.dll" />
+    <Content Include="bin\Microsoft.Azure.Search.Service.xml" />
+    <Content Include="bin\Microsoft.Azure.Search.xml" />
+    <Content Include="bin\Microsoft.CSharp.dll" />
+    <Content Include="bin\Microsoft.Data.Edm.dll" />
+    <Content Include="bin\Microsoft.Data.Edm.xml" />
+    <Content Include="bin\Microsoft.Data.OData.dll" />
+    <Content Include="bin\Microsoft.Data.OData.xml" />
+    <Content Include="bin\Microsoft.Data.Services.Client.dll" />
+    <Content Include="bin\Microsoft.Data.Services.Client.xml" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="bin\Microsoft.Extensions.DependencyInjection.xml" />
+    <Content Include="bin\Microsoft.Http.dll" />
+    <Content Include="bin\Microsoft.IdentityModel.Protocol.Extensions.dll" />
+    <Content Include="bin\Microsoft.IdentityModel.Protocol.Extensions.xml" />
+    <Content Include="bin\Microsoft.OData.Core.dll" />
+    <Content Include="bin\Microsoft.OData.Core.xml" />
+    <Content Include="bin\Microsoft.OData.Edm.dll" />
+    <Content Include="bin\Microsoft.OData.Edm.xml" />
+    <Content Include="bin\Microsoft.Owin.Cors.dll" />
+    <Content Include="bin\Microsoft.Owin.Cors.xml" />
+    <Content Include="bin\Microsoft.Owin.dll" />
+    <Content Include="bin\Microsoft.Owin.FileSystems.dll" />
+    <Content Include="bin\Microsoft.Owin.FileSystems.xml" />
+    <Content Include="bin\Microsoft.Owin.Host.SystemWeb.dll" />
+    <Content Include="bin\Microsoft.Owin.Host.SystemWeb.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.Cookies.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.Cookies.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.Facebook.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.Facebook.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.Google.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.Google.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.Jwt.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.Jwt.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.MicrosoftAccount.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.MicrosoftAccount.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.OAuth.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.OAuth.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.OpenIdConnect.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.OpenIdConnect.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.Twitter.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.Twitter.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.WsFederation.dll" />
+    <Content Include="bin\Microsoft.Owin.Security.WsFederation.xml" />
+    <Content Include="bin\Microsoft.Owin.Security.xml" />
+    <Content Include="bin\Microsoft.Owin.StaticFiles.dll" />
+    <Content Include="bin\Microsoft.Owin.StaticFiles.xml" />
+    <Content Include="bin\Microsoft.Owin.xml" />
+    <Content Include="bin\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Microsoft.Practices.ServiceLocation.xml" />
+    <Content Include="bin\Microsoft.Rest.ClientRuntime.Azure.dll" />
+    <Content Include="bin\Microsoft.Rest.ClientRuntime.Azure.xml" />
+    <Content Include="bin\Microsoft.Rest.ClientRuntime.dll" />
+    <Content Include="bin\Microsoft.Rest.ClientRuntime.xml" />
+    <Content Include="bin\Microsoft.SharePoint.Client.dll" />
+    <Content Include="bin\Microsoft.SharePoint.Client.Runtime.dll" />
+    <Content Include="bin\Microsoft.Spatial.dll" />
+    <Content Include="bin\Microsoft.Spatial.xml" />
+    <Content Include="bin\Microsoft.SqlServer.Types.dll" />
+    <Content Include="bin\Microsoft.Web.Administration.dll" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Microsoft.WindowsAzure.Diagnostics.dll" />
+    <Content Include="bin\Microsoft.WindowsAzure.ServiceRuntime.dll" />
+    <Content Include="bin\Microsoft.WindowsAzure.Storage.dll" />
+    <Content Include="bin\Microsoft.WindowsAzure.Storage.xml" />
+    <Content Include="bin\MonAgentListener.dll" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\Nest.dll" />
+    <Content Include="bin\Nest.JsonNetSerializer.dll" />
+    <Content Include="bin\Nest.JsonNetSerializer.xml" />
+    <Content Include="bin\Nest.xml" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\Ninject.dll" />
+    <Content Include="bin\Ninject.Web.Common.dll" />
+    <Content Include="bin\Ninject.Web.Common.xml" />
+    <Content Include="bin\Ninject.xml" />
+    <Content Include="bin\Owin.dll" />
+    <Content Include="bin\Owin.Security.Providers.GitHub.dll" />
+    <Content Include="bin\Owin.Security.Providers.LinkedIn.dll" />
+    <Content Include="bin\payflow_dotNET.dll" />
+    <Content Include="bin\PayPal.dll" />
+    <Content Include="bin\PayPal.xml" />
+    <Content Include="bin\Progress.Sitefinity.Renderer.dll" />
+    <Content Include="bin\Progress.Sitefinity.Renderer.xml" />
+    <Content Include="bin\RazorEngine.dll" />
+    <Content Include="bin\RazorGenerator.Mvc.dll" />
+    <Content Include="bin\RazorGenerator.Templating.dll" />
+    <Content Include="bin\ServiceStack.Aws.dll" />
+    <Content Include="bin\ServiceStack.Aws.xml" />
+    <Content Include="bin\ServiceStack.Caching.Memcached.dll" />
+    <Content Include="bin\ServiceStack.Caching.Memcached.xml" />
+    <Content Include="bin\ServiceStack.Client.dll" />
+    <Content Include="bin\ServiceStack.Client.xml" />
+    <Content Include="bin\ServiceStack.Common.dll" />
+    <Content Include="bin\ServiceStack.Common.xml" />
+    <Content Include="bin\ServiceStack.dll" />
+    <Content Include="bin\ServiceStack.Interfaces.dll" />
+    <Content Include="bin\ServiceStack.Interfaces.xml" />
+    <Content Include="bin\ServiceStack.OrmLite.dll" />
+    <Content Include="bin\ServiceStack.OrmLite.SqlServer.dll" />
+    <Content Include="bin\ServiceStack.OrmLite.SqlServer.xml" />
+    <Content Include="bin\ServiceStack.OrmLite.xml" />
+    <Content Include="bin\ServiceStack.Redis.dll" />
+    <Content Include="bin\ServiceStack.Redis.xml" />
+    <Content Include="bin\ServiceStack.Server.dll" />
+    <Content Include="bin\ServiceStack.Server.xml" />
+    <Content Include="bin\ServiceStack.Text.dll" />
+    <Content Include="bin\ServiceStack.Text.xml" />
+    <Content Include="bin\ServiceStack.xml" />
+    <Content Include="bin\SitefinityWebApp.dll" />
+    <Content Include="bin\SitefinityWebApp.pdb" />
+    <Content Include="bin\SitefinityWebApp.ResourcePackages.Bootstrap4.dll" />
+    <Content Include="bin\SitefinityWebApp.ResourcePackages.Bootstrap4.pdb" />
+    <Content Include="bin\stdole.dll" />
+    <Content Include="bin\System.Buffers.dll" />
+    <Content Include="bin\System.Buffers.xml" />
+    <Content Include="bin\System.ComponentModel.Annotations.dll" />
+    <Content Include="bin\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\System.Diagnostics.DiagnosticSource.xml" />
+    <Content Include="bin\System.IdentityModel.Tokens.Jwt.dll" />
+    <Content Include="bin\System.IdentityModel.Tokens.Jwt.xml" />
+    <Content Include="bin\System.Memory.dll" />
+    <Content Include="bin\System.Memory.xml" />
+    <Content Include="bin\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\System.Numerics.Vectors.dll" />
+    <Content Include="bin\System.Numerics.Vectors.xml" />
+    <Content Include="bin\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="bin\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="bin\System.Spatial.dll" />
+    <Content Include="bin\System.Spatial.xml" />
+    <Content Include="bin\System.Text.Encoding.CodePages.dll" />
+    <Content Include="bin\System.Text.Encoding.CodePages.xml" />
+    <Content Include="bin\System.ValueTuple.dll" />
+    <Content Include="bin\System.ValueTuple.xml" />
+    <Content Include="bin\System.Web.Cors.dll" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Helpers.xml" />
+    <Content Include="bin\System.Web.Http.Cors.dll" />
+    <Content Include="bin\System.Web.Http.Cors.xml" />
+    <Content Include="bin\System.Web.Http.dll" />
+    <Content Include="bin\System.Web.Http.Owin.dll" />
+    <Content Include="bin\System.Web.Http.Owin.xml" />
+    <Content Include="bin\System.Web.Http.Tracing.dll" />
+    <Content Include="bin\System.Web.Http.Tracing.xml" />
+    <Content Include="bin\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.xml" />
+    <Content Include="bin\System.Web.Http.xml" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Mvc.xml" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.Razor.xml" />
+    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\System.Web.WebPages.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\System.Web.WebPages.xml" />
+    <Content Include="bin\System.Windows.dll" />
+    <Content Include="bin\Telerik.DEC.Common.Encryption.Contract.dll" />
+    <Content Include="bin\Telerik.DigitalExperienceCloud.Client.dll" />
+    <Content Include="bin\Telerik.DigitalExperienceCloud.Client.xml" />
+    <Content Include="bin\Telerik.Octopus.Validation.dll" />
+    <Content Include="bin\Telerik.OpenAccess.35.Extensions.dll" />
+    <Content Include="bin\Telerik.OpenAccess.35.Extensions.xml" />
+    <Content Include="bin\Telerik.OpenAccess.40.Extensions.dll" />
+    <Content Include="bin\Telerik.OpenAccess.40.Extensions.xml" />
+    <Content Include="bin\Telerik.OpenAccess.DataAdapter.dll" />
+    <Content Include="bin\Telerik.OpenAccess.DataAdapter.OpenAccess.dll" />
+    <Content Include="bin\Telerik.OpenAccess.DataAdapter.SalesForce.dll" />
+    <Content Include="bin\Telerik.OpenAccess.DataAdapter.SharePoint.dll" />
+    <Content Include="bin\Telerik.OpenAccess.DataSource.SharePoint.dll" />
+    <Content Include="bin\Telerik.OpenAccess.DataSource.SyncDB.dll" />
+    <Content Include="bin\Telerik.OpenAccess.dll" />
+    <Content Include="bin\Telerik.OpenAccess.Runtime.dll" />
+    <Content Include="bin\Telerik.OpenAccess.Sync.dll" />
+    <Content Include="bin\Telerik.OpenAccess.Web.dll" />
+    <Content Include="bin\Telerik.OpenAccess.xml" />
+    <Content Include="bin\Telerik.Reporting.dll" />
+    <Content Include="bin\Telerik.Reporting.OpenXmlRendering.dll" />
+    <Content Include="bin\Telerik.Reporting.OpenXmlRendering.xml" />
+    <Content Include="bin\Telerik.Reporting.xml" />
+    <Content Include="bin\Telerik.Reporting.XpsRendering.dll" />
+    <Content Include="bin\Telerik.Reporting.XpsRendering.xml" />
+    <Content Include="bin\Telerik.ReportViewer.WebForms.dll" />
+    <Content Include="bin\Telerik.ReportViewer.WebForms.xml" />
+    <Content Include="bin\Telerik.Sitefinity.ABTesting.dll" />
+    <Content Include="bin\Telerik.Sitefinity.AdminBridge.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Amazon.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Amazon.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Audit.Elasticsearch.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Audit.Elasticsearch.XML" />
+    <Content Include="bin\Telerik.Sitefinity.AuditTrail.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Authentication.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Authentication.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Azure.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Azure.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Connectivity.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Connectivity.XML" />
+    <Content Include="bin\Telerik.Sitefinity.ContentModules.dll" />
+    <Content Include="bin\Telerik.Sitefinity.ContentModules.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Dashboard.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Dashboard.XML" />
+    <Content Include="bin\Telerik.Sitefinity.DataIntelligenceConnector.dll" />
+    <Content Include="bin\Telerik.Sitefinity.DataIntelligenceConnector.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Diagnostics.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Diagnostics.XML" />
+    <Content Include="bin\Telerik.Sitefinity.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Ecommerce.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Ecommerce.XML" />
+    <Content Include="bin\Telerik.Sitefinity.EloquaConnector.dll" />
+    <Content Include="bin\Telerik.Sitefinity.EloquaConnector.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Forums.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Forums.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Blogs.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Card.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Comments.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.ContentBlock.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.ContentBlock.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Data.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.DynamicContent.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.DynamicContent.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.EmailCampaigns.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Events.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Forms.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Identity.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.InlineClientAssets.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Lists.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Media.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Navigation.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Navigation.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.News.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.News.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Publishing.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Search.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Search.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Taxonomies.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.XML" />
+    <Content Include="bin\Telerik.Sitefinity.HubSpotConnector.dll" />
+    <Content Include="bin\Telerik.Sitefinity.HubSpotConnector.XML" />
+    <Content Include="bin\Telerik.Sitefinity.MarketoConnector.dll" />
+    <Content Include="bin\Telerik.Sitefinity.MarketoConnector.XML" />
+    <Content Include="bin\Telerik.Sitefinity.MobileFormats.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Model.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Model.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Mvc.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Mvc.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Packaging.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Personalization.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Personalization.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Personalization.Impl.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Personalization.XML" />
+    <Content Include="bin\Telerik.Sitefinity.PrecompiledPages.Backend.0.dll" />
+    <Content Include="bin\Telerik.Sitefinity.PrecompiledTemplates.dll" />
+    <Content Include="bin\Telerik.Sitefinity.RecurrentRules.dll" />
+    <Content Include="bin\Telerik.Sitefinity.RecurrentRules.XML" />
+    <Content Include="bin\Telerik.Sitefinity.RecycleBin.dll" />
+    <Content Include="bin\Telerik.Sitefinity.RecycleBin.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Resources.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Resources.XML" />
+    <Content Include="bin\Telerik.Sitefinity.SalesForceConnector.dll" />
+    <Content Include="bin\Telerik.Sitefinity.SalesForceConnector.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Search.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Search.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Search.Impl.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Search.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Comments.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Comments.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Comments.Impl.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Comments.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Documents.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Documents.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Documents.Impl.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Documents.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Events.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Events.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Notifications.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Notifications.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Notifications.Impl.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Notifications.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.RecycleBin.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.RecycleBin.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.RecycleBin.Impl.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.RecycleBin.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Statistics.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Statistics.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Statistics.Impl.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Statistics.XML" />
+    <Content Include="bin\Telerik.Sitefinity.SharepointConnector.dll" />
+    <Content Include="bin\Telerik.Sitefinity.SharepointConnector.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Sitemap.XML" />
+    <Content Include="bin\Telerik.Sitefinity.SitemapGenerator.dll" />
+    <Content Include="bin\Telerik.Sitefinity.SiteSync.dll" />
+    <Content Include="bin\Telerik.Sitefinity.SiteSync.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.SiteSync.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Translations.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Translations.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Utilities.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Utilities.XML" />
+    <Content Include="bin\Telerik.Sitefinity.Web.Api.dll" />
+    <Content Include="bin\Telerik.Sitefinity.WebSecurity.dll" />
+    <Content Include="bin\Telerik.Sitefinity.XML" />
+    <Content Include="bin\Telerik.Web.Design.dll" />
+    <Content Include="bin\Telerik.Web.Spreadsheet.dll" />
+    <Content Include="bin\Telerik.Web.Spreadsheet.xml" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Web.UI.xml" />
+    <Content Include="bin\Telerik.Windows.Controls.dll" />
+    <Content Include="bin\Telerik.Windows.Data.dll" />
+    <Content Include="bin\Telerik.Windows.Data.xml" />
+    <Content Include="bin\Telerik.Windows.Documents.Core.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Core.xml" />
+    <Content Include="bin\Telerik.Windows.Documents.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Fixed.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Fixed.xml" />
+    <Content Include="bin\Telerik.Windows.Documents.Flow.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Flow.xml" />
+    <Content Include="bin\Telerik.Windows.Documents.FormatProviders.Html.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.FormatProviders.Html.xml" />
+    <Content Include="bin\Telerik.Windows.Documents.FormatProviders.OpenXml.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.FormatProviders.OpenXml.xml" />
+    <Content Include="bin\Telerik.Windows.Documents.FormatProviders.Rtf.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.FormatProviders.Rtf.xml" />
+    <Content Include="bin\Telerik.Windows.Documents.xml" />
+    <Content Include="bin\Telerik.Windows.Zip.dll" />
+    <Content Include="bin\Telerik.Windows.Zip.xml" />
+    <Content Include="bin\Twitterizer2.dll" />
+    <Content Include="bin\Twitterizer2.xml" />
+    <Content Include="bin\WebActivatorEx.dll" />
+    <Content Include="bin\WindowsAzureEventSource.dll" />
+    <Content Include="bin\WindowsAzureTelemetryEvents.dll" />
     <Content Include="Default.aspx" />
+    <Content Include="MVC\Scripts\Form\form.all.js" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap4\assets\dist\js\bootstrap.min.js" />
@@ -1271,6 +1686,26 @@
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-8+4.html" />
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-9+3.html" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Scripts\Navigation\pills.js" />
+    <Content Include="ResourcePackages\Custom\assets\dist\css\main.css" />
+    <Content Include="ResourcePackages\Custom\assets\dist\css\main.min.css" />
+    <Content Include="ResourcePackages\Custom\assets\dist\js\bootstrap.min.js" />
+    <Content Include="ResourcePackages\Custom\assets\dist\js\popper.min.js" />
+    <Content Include="ResourcePackages\Custom\assets\dist\sprites\brands.svg" />
+    <Content Include="ResourcePackages\Custom\assets\dist\sprites\regular.svg" />
+    <Content Include="ResourcePackages\Custom\assets\dist\sprites\solid.svg" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\container.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-12.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-2+3+2+3+2.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-3+3+3+3.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-3+6+3.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-4+4+4.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-4+8.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-6+6.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-7+5.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-8+4.html" />
+    <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-9+3.html" />
+    <Content Include="ResourcePackages\Custom\MVC\Scripts\Navigation\pills.js" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Card\Card.Hero.cshtml" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Services\Analytics\AnalyticsPermissionsService.svc" />
     <Content Include="Sitefinity\Services\Analytics\DashboardData.svc" />
@@ -1379,9 +1814,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Mvc\Controllers\readme.txt" />
-    <Content Include="Mvc\Models\readme.txt" />
     <Content Include="Mvc\Views\readme.txt" />
     <Content Include="Mvc\Views\Shared\readme.txt" />
+    <Content Include="MVC\Views\CustomWidget\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
@@ -1425,7 +1860,8 @@
     <Content Include="App_Data\RadCaptcha\Z.wav" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\Sitefinity\" />
+    <Folder Include="MVC\Views\OurOffices\" />
+    <Folder Include="MVC\Views\TextField\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
@@ -1578,7 +2014,163 @@
     <Content Include="ResourcePackages\Bootstrap4\package-lock.json" />
     <Content Include="ResourcePackages\Bootstrap4\package.json" />
     <Content Include="ResourcePackages\Bootstrap4\razorgenerator.directives" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Layouts\default2.cshtml" />
+    <Content Include="App_Data\Sitefinity\Configuration\DataConfig.config" />
+    <Content Include="MVC\Views\FlatTaxonomy\Index.cshtml" />
+    <Content Include="bin\ControllerContainerAsembliesLocation.json" />
+    <Content Include="bin\SitefinityWebApp.dll.config" />
+    <Content Include="bin\Telerik.Sitefinity.Azure.dll.config" />
+    <Content Include="bin\Telerik.Sitefinity.Mvc.dll.config" />
+    <None Include="packages.config" />
+    <Content Include="ResourcePackages\Custom\assets\src\project\sass\adminapp\editor.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\project\sass\main.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\base\_list.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\base\_media.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\base\_pre.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\base\_rtl.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\components\icons\_icons.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\components\loading\_loading.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\settings\_variables.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\sitefinity.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\tools\_bootstrap-mixins.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\tools\_mixins.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\tools\_placeholder-selectors.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\utilities\_spacing.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\utilities\_text.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\code\_sf-code.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\comments\_sf-comments.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\comments\_sf-ratings.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\contentBlock\_sf-content-block.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\documentList\_sf-document-list.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\event\_sf-event.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\feed\_sf-feed.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\fileField\_sf-file-field.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\formNavigation\_sf-form-nav.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\form\_sf-form.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\gallery\_sf-gallery.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\languageSelector\_sf-language-selector.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\list\_sf-list.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\login\_sf-login.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\media\_sf-media.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\navigation\_sf-navbar.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\navigation\_sf-sitemap.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\navigation\_sf-stacked.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\pagination\_sf-pagination.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\profile\_sf-profile.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\searchBox\_sf-search-box.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\searchResults\_sf-search-results.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\siteSelector\_sf-site-selector.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\sitefinity\sass\widgets\taxonomies\_sf-tags.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\vendors\_all.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\vendors\_bootstrap.scss" />
+    <Content Include="ResourcePackages\Custom\assets\src\vendors\_magnific-popup.scss" />
+    <Content Include="ResourcePackages\Custom\client-components\fields\html-field\sf-html-field.sf-cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\AccountActivation\AccountActivation.AccountActivation.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\BlogPost\Detail.DetailPage.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\BlogPost\List.BlogPostList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Blog\Detail.DetailPage.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Blog\List.BlogList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Breadcrumb\Breadcrumb.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Captcha\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Card\Card.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Card\Card.Simple.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ChangePassword\ChangePassword.ChangePassword.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\CheckboxesField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\CheckboxesField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\CheckboxesField\Write.Default_Inline.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Comments\Comments.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Comments\CommentsCount.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ContentBlock\Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ContentPager\Pager.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\DocumentsList\Detail.DocumentDetails.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\DocumentsList\List.DocumentsList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\DocumentsList\List.DocumentsTable.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Document\DocumentLink.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\DropdownListField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\DropdownListField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\EmailTextField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\EmailTextField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\EmbedCode\Index.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\EventScheduler\Detail.EventDetails.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\EventScheduler\List.Calendar.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Event\Detail.EventDetails.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Event\List.EventsList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Feed\Feed.FeedLink.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\FileField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\FlatTaxonomy\FlatTaxonomy.CloudList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\FlatTaxonomy\FlatTaxonomy.SimpleList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\FlatTaxonomy\FlatTaxonomy.TagCloud.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Form\Form.SubmitResultView.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Form\Index.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\HiddenField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\HiddenField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ImageGallery\Detail.DetailPage.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ImageGallery\List.ImageGallery.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ImageGallery\List.OverlayGallery.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ImageGallery\List.SimpleList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Image\Image.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\JavaScript\Index.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Layouts\custom.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Lists\Detail.DetailPage.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Lists\List.AnchorList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Lists\List.ExpandableList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Lists\List.ExpandedList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Lists\List.PagesList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Lists\List.SimpleList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\LoginForm\LoginForm.LoginForm.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\LoginForm\ResetPassword.ResetPassword.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\LoginStatus\LoginStatus.LoginName.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\MultipleChoiceField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\MultipleChoiceField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\MultipleChoiceField\Write.Default_Inline.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\NavigationField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\NavigationField\Read.ProgressBar.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Navigation\Dropdown.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Navigation\NavigationView.Horizontal.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Navigation\NavigationView.Pills.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Navigation\NavigationView.Sitemap.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Navigation\NavigationView.Tabs.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Navigation\NavigationView.Vertical.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\News\Detail.DetailPage.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\News\List.NewsList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\PageBreak\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ParagraphTextField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\ParagraphTextField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Profile\ConfirmPassword.ProfileEdit.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Profile\Edit.ProfileEdit.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Profile\Read.ProfilePreview.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Registration\Registration.RegistrationForm.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Reviews\Reviews.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Reviews\ReviewsCount.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SearchBox\SearchBox.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SearchResults\InputValidationError.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SearchResults\SearchResults.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SectionHeader\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SiteSelector\SiteSelector.DropDownMenu.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SiteSelector\SiteSelector.SiteLinks.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\StyleSheet\Index.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SubmitButton\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\SubscribeForm\SubscribeForm.SubscribeForm.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\TextField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\TextField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\UnsubscribeForm\UnsubscribeFormByEmailAddress.UnsubscribeForm.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\UnsubscribeForm\UnsubscribeFormByLink.UnsubscribeMessage.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\UsersList\Detail.UserDetails.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\UsersList\List.UsersList.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\VideoGallery\Detail.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\VideoGallery\List.OverlayGallery.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\VideoGallery\List.VideoGallery.cshtml" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Video\Video.Default.cshtml" />
+    <Content Include="ResourcePackages\Custom\package-lock.json" />
+    <Content Include="ResourcePackages\Custom\package.json" />
+    <Content Include="ResourcePackages\Custom\razorgenerator.directives" />
+    <Content Include="ResourcePackages\Custom\README.md" />
+    <Content Include="ResourcePackages\Custom\MVC\Views\Card\Card.Circle.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
